@@ -1,4 +1,4 @@
-package car;
+package cars;
 
 public class CarShopMain {
     public static void main(String[] args) {
@@ -36,8 +36,6 @@ public class CarShopMain {
         System.out.println(carShop.carsWithBrand("Toyota").size()); //2
 
         System.out.println(carShop.carsWithBrand("BMW").size()); //0
-
-
 
     }
 }
